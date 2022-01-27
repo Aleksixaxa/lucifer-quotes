@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgba(7, 3, 3, 0.904);
+  background-color: rgba(37, 28, 28, 0.904);
 }
 
 .center {
@@ -50,4 +50,8 @@ main {
   color: white;
   background-color: rgba(94, 66, 66, 0.904);
   cursor: pointer;
+  transition: 0.3s ease all;
+}
+.new-quote:hover {
+  background-color: rgb(51, 38, 38);
 }
